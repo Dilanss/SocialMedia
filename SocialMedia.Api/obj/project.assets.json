@@ -88,6 +88,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "SocialMedia.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SocialMedia.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SocialMedia.Core.dll": {}
+        }
+      },
+      "SocialMedia.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SocialMedia.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SocialMedia.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SocialMedia.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -420,10 +443,22 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "SocialMedia.Core/1.0.0": {
+      "type": "project",
+      "path": "../SocialMedia.Core/SocialMedia.Core.csproj",
+      "msbuildProject": "../SocialMedia.Core/SocialMedia.Core.csproj"
+    },
+    "SocialMedia.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SocialMedia.Infrastructure/SocialMedia.Infrastructure.csproj",
+      "msbuildProject": "../SocialMedia.Infrastructure/SocialMedia.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "SocialMedia.Core >= 1.0.0",
+      "SocialMedia.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -454,7 +489,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
+              "projectPath": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj"
+            },
+            "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

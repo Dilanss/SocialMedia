@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|solutionrelative:socialmedia.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F55C2669-32BB-4F07-A40D-F230239579A7}|SocialMedia.Core\\SocialMedia.Core.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F55C2669-32BB-4F07-A40D-F230239579A7}|SocialMedia.Core\\SocialMedia.Core.csproj|solutionrelative:socialmedia.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "SocialMedia.Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Class1.cs",
-              "RelativeToolTip": "SocialMedia.Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T13:36:01.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "SocialMedia.Core\\Class1.cs",
-              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Core\\Class1.cs",
-              "RelativeToolTip": "SocialMedia.Core\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T13:35:34.109Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

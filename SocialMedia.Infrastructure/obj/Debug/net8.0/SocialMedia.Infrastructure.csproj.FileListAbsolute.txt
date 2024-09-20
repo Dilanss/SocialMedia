@@ -1,0 +1,16 @@
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\bin\Debug\net8.0\SocialMedia.Infrastructure.deps.json
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\bin\Debug\net8.0\SocialMedia.Infrastructure.dll
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\bin\Debug\net8.0\SocialMedia.Infrastructure.pdb
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\bin\Debug\net8.0\SocialMedia.Core.dll
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\bin\Debug\net8.0\SocialMedia.Core.pdb
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\SocialMedia.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\SocialMedia.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\SocialMedia.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\SocialMedia.Infrastructure.AssemblyInfo.cs
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\SocialMedia.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\SocialMedia.Infrastructure.sourcelink.json
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\SocialMe.BDF3DEF8.Up2Date
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\SocialMedia.Infrastructure.dll
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\refint\SocialMedia.Infrastructure.dll
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\SocialMedia.Infrastructure.pdb
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\ref\SocialMedia.Infrastructure.dll
