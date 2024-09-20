@@ -14,3 +14,5 @@ C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\ne
 C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\refint\SocialMedia.Infrastructure.dll
 C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\SocialMedia.Infrastructure.pdb
 C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\ref\SocialMedia.Infrastructure.dll
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\bin\Debug\net8.0\SocialMedia.Infrastructure.runtimeconfig.json
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Infrastructure\obj\Debug\net8.0\SocialMedia.Infrastructure.genruntimeconfig.cache
