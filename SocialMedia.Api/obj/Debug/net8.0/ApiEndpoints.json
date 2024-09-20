@@ -11,6 +11,22 @@
   },
   {
     "ContainingType": "SocialMedia.Api.Controllers.PostController",
+    "Method": "Post",
+    "RelativePath": "api/Post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "post",
+        "Type": "SocialMedia.Core.Entities.Post",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocialMedia.Api.Controllers.PostController",
     "Method": "GetPost",
     "RelativePath": "api/Post/{id}",
     "HttpMethod": "GET",
