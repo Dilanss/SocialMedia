@@ -18,8 +18,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "post",
-        "Type": "SocialMedia.Core.Entities.Post",
+        "Name": "postDto",
+        "Type": "SocialMedia.Core.DTOs.PostDto",
         "IsRequired": true
       }
     ],

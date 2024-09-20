@@ -7,12 +7,18 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddNewtonsoftJson(options =>
+{
+    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+});
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 //Coneccion al contexto de la base de datos
 builder.Services.AddDbContext<SocialMediaContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SocialMedia"))
-);
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SocialMedia"));
+});
 
 //Añadir la inyeccion de dependencias
 
