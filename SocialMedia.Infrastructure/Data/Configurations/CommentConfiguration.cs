@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using SocialMedia.Core.Entities;
 
-
 namespace SocialMedia.Infrastructure.Data.Configurations
 {
     public class CommentConfiguration : IEntityTypeConfiguration<Comment>
@@ -11,9 +10,9 @@ namespace SocialMedia.Infrastructure.Data.Configurations
         {
             builder.ToTable("Comentario");
 
-            builder.HasKey(e => e.CommentId);
+            builder.HasKey(e => e.Id);
 
-            builder.Property(e => e.CommentId)
+            builder.Property(e => e.Id)
                 .HasColumnName("IdComentario")
                 .ValueGeneratedNever();
 
@@ -27,7 +26,6 @@ namespace SocialMedia.Infrastructure.Data.Configurations
                 .HasColumnName("Activo");
 
             builder.Property(e => e.Description)
-                .IsRequired()
                 .HasColumnName("Descripcion")
                 .HasMaxLength(500)
                 .IsUnicode(false);

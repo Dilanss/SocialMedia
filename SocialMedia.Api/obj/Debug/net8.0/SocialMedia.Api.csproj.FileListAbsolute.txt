@@ -145,3 +145,11 @@ C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\bin\Debug\net8.0\Newton
 C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\bin\Debug\net8.0\SocialMedia.Api.xml
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\obj\Debug\net8.0\SocialMedia.Api.xml
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\obj\Debug\net8.0\SocialMedia.Api.Properties.Resources.resources
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\obj\Debug\net8.0\SocialMedia.Api.csproj.GenerateResource.cache

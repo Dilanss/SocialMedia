@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.infrastructure\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|solutionrelative:socialmedia.infrastructure\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08315B08-D320-491F-8E06-DAE8D52BF8B9}|SocialMedia.Api\\SocialMedia.Api.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08315B08-D320-491F-8E06-DAE8D52BF8B9}|SocialMedia.Api\\SocialMedia.Api.csproj|solutionrelative:socialmedia.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08315B08-D320-491F-8E06-DAE8D52BF8B9}|SocialMedia.Api\\SocialMedia.Api.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08315B08-D320-491F-8E06-DAE8D52BF8B9}|SocialMedia.Api\\SocialMedia.Api.csproj|solutionrelative:socialmedia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.infrastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|solutionrelative:socialmedia.infrastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F55C2669-32BB-4F07-A40D-F230239579A7}|SocialMedia.Core\\SocialMedia.Core.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.core\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F55C2669-32BB-4F07-A40D-F230239579A7}|SocialMedia.Core\\SocialMedia.Core.csproj|solutionrelative:socialmedia.core\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F55C2669-32BB-4F07-A40D-F230239579A7}|SocialMedia.Core\\SocialMedia.Core.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.core\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F55C2669-32BB-4F07-A40D-F230239579A7}|SocialMedia.Core\\SocialMedia.Core.csproj|solutionrelative:socialmedia.core\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AutomapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Mappings\\AutomapperProfile.cs",
-              "RelativeDocumentMoniker": "SocialMedia.Infrastructure\\Mappings\\AutomapperProfile.cs",
-              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Mappings\\AutomapperProfile.cs",
-              "RelativeToolTip": "SocialMedia.Infrastructure\\Mappings\\AutomapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T21:23:52.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Api\\Program.cs",
               "RelativeDocumentMoniker": "SocialMedia.Api\\Program.cs",
               "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Api\\Program.cs",
               "RelativeToolTip": "SocialMedia.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAHsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T21:01:06.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Core\\Entities\\Post.cs",
-              "RelativeDocumentMoniker": "SocialMedia.Core\\Entities\\Post.cs",
-              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Core\\Entities\\Post.cs",
-              "RelativeToolTip": "SocialMedia.Core\\Entities\\Post.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T20:46:38.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Api\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "SocialMedia.Api\\Controllers\\PostController.cs",
-              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Api\\Controllers\\PostController.cs",
-              "RelativeToolTip": "SocialMedia.Api\\Controllers\\PostController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T20:40:35.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Repositories\\PostRepository.cs",
-              "RelativeDocumentMoniker": "SocialMedia.Infrastructure\\Repositories\\PostRepository.cs",
-              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Repositories\\PostRepository.cs",
-              "RelativeToolTip": "SocialMedia.Infrastructure\\Repositories\\PostRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAASwBgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T20:56:45.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PostDto.cs",
-              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Core\\DTOs\\PostDto.cs",
-              "RelativeDocumentMoniker": "SocialMedia.Core\\DTOs\\PostDto.cs",
-              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Core\\DTOs\\PostDto.cs",
-              "RelativeToolTip": "SocialMedia.Core\\DTOs\\PostDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T21:06:27.101Z",
+              "WhenOpened": "2024-09-24T21:43:39.316Z",
               "EditorCaption": ""
             }
           ]

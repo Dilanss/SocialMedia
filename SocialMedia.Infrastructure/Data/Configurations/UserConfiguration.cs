@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using SocialMedia.Core.Entities;
 
-
 namespace SocialMedia.Infrastructure.Data.Configurations
 {
     public class UserConfiguration : IEntityTypeConfiguration<User>
@@ -11,25 +10,22 @@ namespace SocialMedia.Infrastructure.Data.Configurations
         {
             builder.ToTable("Usuario");
 
-            builder.HasKey(e => e.UserId);
+            builder.HasKey(e => e.Id);
 
-            builder.Property(e => e.UserId)
+            builder.Property(e => e.Id)
                 .HasColumnName("IdUsuario");
 
-            builder.Property(e => e.FirstName)
+            builder.Property(e => e.LastName)
                 .HasColumnName("Nombres")
-                .IsRequired()
                 .HasMaxLength(50)
                 .IsUnicode(false);
 
-            builder.Property(e => e.LastName)
+            builder.Property(e => e.FirstName)
                 .HasColumnName("Apellidos")
-                .IsRequired()
                 .HasMaxLength(50)
                 .IsUnicode(false);
 
             builder.Property(e => e.Email)
-                .IsRequired()
                 .HasMaxLength(30)
                 .IsUnicode(false);
 

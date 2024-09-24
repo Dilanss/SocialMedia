@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SocialMedia.Api</name>
+    </assembly>
+    <members>
+        <member name="M:SocialMedia.Api.Controllers.PostController.#ctor(SocialMedia.Core.Interfaces.IPostService,AutoMapper.IMapper,SocialMedia.Infrastructure.Interfaces.IUriService)">
+            <summary>
+            PostController
+            </summary>
+            <param name="postService"></param>
+            <param name="mapper"></param>
+            <param name="uriService"></param>
+        </member>
+        <member name="M:SocialMedia.Api.Controllers.PostController.GetPosts(SocialMedia.Core.QueryFilters.PostQueryFilter)">
+            <summary>
+            Retrieve all posts 
+            </summary>
+            <param name="filters">Filters to apply</param>
+            <returns></returns>
+        </member>
+        <member name="M:SocialMedia.Api.Controllers.PostController.GetPost(System.Int32)">
+            <summary>
+            Retrieve all posts by an id
+            </summary>
+            <param name="id">Filters to apply</param>
+            <returns></returns>
+        </member>
+        <member name="M:SocialMedia.Api.Controllers.PostController.Post(SocialMedia.Core.DTOs.PostDto)">
+            <summary>
+            Send data to the server
+            </summary>
+            <param name="postDto">Filters to apply</param>
+            <returns></returns>
+        </member>
+        <member name="M:SocialMedia.Api.Controllers.PostController.Put(System.Int32,SocialMedia.Core.DTOs.PostDto)">
+            <summary>
+            Update the registers
+            </summary>
+            <param name="id">Filters to apply</param>
+            <param name="postDto">Filters to apply</param>
+            <returns></returns>
+        </member>
+        <member name="M:SocialMedia.Api.Controllers.PostController.Delete(System.Int32)">
+            <summary>
+            Delete register for by an id 
+            </summary>
+            <param name="id">Filters to apply</param>
+            <returns></returns>
+        </member>
+        <member name="T:SocialMedia.Api.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:SocialMedia.Api.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:SocialMedia.Api.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+    </members>
+</doc>
