@@ -30,9 +30,9 @@ namespace SocialMedia.Core.Services
 
             var posts = _unitOfWork.PostRepository.GetAll();
 
-            if(filters.UserId != null)
+            if (filters.UserId != null)
             {
-                posts = posts.Where(x=> x.UserId == filters.UserId);
+                posts = posts.Where(x => x.UserId == filters.UserId);
             }
 
             if (filters.Date != null)
@@ -59,10 +59,10 @@ namespace SocialMedia.Core.Services
             };
 
             var userPost = await _unitOfWork.PostRepository.GetPostsByUser(post.UserId);
-            if(userPost.Count() < 10)
+            if (userPost.Count() < 10)
             {
-                var LastPost = userPost.OrderByDescending(x=> x.Date).FirstOrDefault();
-                if((DateTime.Now - LastPost.Date).TotalDays < 7)
+                var LastPost = userPost.OrderByDescending(x => x.Date).FirstOrDefault();
+                if ((DateTime.Now - LastPost.Date).TotalDays < 7)
                 {
                     throw new BusinessException("You are not able to publish the post");
                 }

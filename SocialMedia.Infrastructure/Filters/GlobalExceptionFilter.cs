@@ -9,7 +9,7 @@ namespace SocialMedia.Infrastructure.Filters
     {
         public void OnException(ExceptionContext context)
         {
-            if(context.Exception.GetType() == typeof(BusinessException))
+            if (context.Exception.GetType() == typeof(BusinessException))
             {
                 var exeption = (BusinessException)context.Exception;
                 var validation = new

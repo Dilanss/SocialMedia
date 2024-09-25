@@ -44,7 +44,7 @@ namespace SocialMedia.Api.Controllers
         [HttpGet(Name = nameof(GetPosts))]
         [ProducesResponseType((int)HttpStatusCode.OK, Type = typeof(ApiResponse<IEnumerable<PostDto>>))]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
-        public IActionResult GetPosts([FromQuery]PostQueryFilter filters)
+        public IActionResult GetPosts([FromQuery] PostQueryFilter filters)
         {
             var posts = _postService.GetPosts(filters);
             var postsDtos = _mapper.Map<IEnumerable<PostDto>>(posts);

@@ -121,6 +121,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SocialMedia.Api.Controllers.SecurityController",
+    "Method": "Post",
+    "RelativePath": "api/Security",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "securityDto",
+        "Type": "SocialMedia.Core.DTOs.SecurityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SocialMedia.Api.Controllers.TokenController",
     "Method": "Authentication",
     "RelativePath": "api/Token",

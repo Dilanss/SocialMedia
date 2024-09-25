@@ -1,6 +1,7 @@
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -36,6 +37,7 @@ builder.Services.AddControllers(options =>
 });
 
 builder.Services.Configure<PaginationOptions>(builder.Configuration.GetSection("Pagination"));
+builder.Services.Configure<PasswordOptions>(builder.Configuration.GetSection("PasswordOptions"));
 
 // Database Conexion
 builder.Services.AddDbContext<SocialMediaContext>(options =>
@@ -44,8 +46,11 @@ builder.Services.AddDbContext<SocialMediaContext>(options =>
 
 // Register repositories e interfaces
 builder.Services.AddTransient<IPostService, PostService>();
+builder.Services.AddTransient<ISecurityService, SecurityService>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+builder.Services.AddSingleton<IPasswordService, PasswordService>();
+
 builder.Services.AddSingleton<IUriService>(provider =>
 {
     var accesor = provider.GetRequiredService<IHttpContextAccessor>();
@@ -81,6 +86,8 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+
+
 builder.Services.AddMvc(options =>
 {
     options.Filters.Add<ValidationFilter>();
@@ -106,8 +113,8 @@ var app = builder.Build();
 // implementation of Swagger
 if (app.Environment.IsDevelopment())
 {
-   app.UseSwagger();
-   app.UseSwaggerUI(options =>
+    app.UseSwagger();
+    app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "Social Media API V1");
         options.RoutePrefix = string.Empty;
