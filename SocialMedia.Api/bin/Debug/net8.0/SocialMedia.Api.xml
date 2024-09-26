@@ -47,6 +47,20 @@
             <param name="id">The ID of the post to delete</param>
             <returns></returns>
         </member>
+        <member name="M:SocialMedia.Api.Controllers.SecurityController.Post(SocialMedia.Core.DTOs.SecurityDto)">
+            <summary>
+            Security for the API
+            </summary>
+            <param name="securityDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocialMedia.Api.Controllers.TokenController.Authentication(SocialMedia.Core.Entities.UserLogin)">
+            <summary>
+            Token for the validation of the API
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
         <member name="T:SocialMedia.Api.Properties.Resources">
             <summary>
               Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.

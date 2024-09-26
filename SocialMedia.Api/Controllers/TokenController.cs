@@ -24,6 +24,11 @@ namespace SocialMedia.Api.Controllers
             _passwordService = passwordService;
         }
 
+        /// <summary>
+        /// Token for the validation of the API
+        /// </summary>
+        /// <param name="login"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> Authentication(UserLogin login)
         {
