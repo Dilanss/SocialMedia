@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.infrastructure\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|solutionrelative:socialmedia.infrastructure\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.infrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|solutionrelative:socialmedia.infrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.infrastructure\\repositories\\securityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|solutionrelative:socialmedia.infrastructure\\repositories\\securityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|solutionrelative:socialmedia.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.infrastructure\\options\\passwordoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|solutionrelative:socialmedia.infrastructure\\options\\passwordoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.infrastructure\\data\\socialmediacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74990C15-2707-4C4B-9639-B410934A50C5}|SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj|solutionrelative:socialmedia.infrastructure\\data\\socialmediacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08315B08-D320-491F-8E06-DAE8D52BF8B9}|SocialMedia.Api\\SocialMedia.Api.csproj|c:\\users\\bb9780\\source\\repos\\socialmedia\\socialmedia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08315B08-D320-491F-8E06-DAE8D52BF8B9}|SocialMedia.Api\\SocialMedia.Api.csproj|solutionrelative:socialmedia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PasswordService.cs",
-              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Services\\PasswordService.cs",
-              "RelativeDocumentMoniker": "SocialMedia.Infrastructure\\Services\\PasswordService.cs",
-              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Services\\PasswordService.cs",
-              "RelativeToolTip": "SocialMedia.Infrastructure\\Services\\PasswordService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "SocialMedia.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "SocialMedia.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T21:16:53.972Z",
+              "WhenOpened": "2024-09-26T15:56:36.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SecurityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Repositories\\SecurityRepository.cs",
-              "RelativeDocumentMoniker": "SocialMedia.Infrastructure\\Repositories\\SecurityRepository.cs",
-              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Repositories\\SecurityRepository.cs",
-              "RelativeToolTip": "SocialMedia.Infrastructure\\Repositories\\SecurityRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SocialMedia.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Api\\Program.cs",
+              "RelativeToolTip": "SocialMedia.Api\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAIEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T21:15:39.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Repositories\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "SocialMedia.Infrastructure\\Repositories\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Repositories\\BaseRepository.cs",
-              "RelativeToolTip": "SocialMedia.Infrastructure\\Repositories\\BaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T21:15:16.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PasswordOptions.cs",
-              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Options\\PasswordOptions.cs",
-              "RelativeDocumentMoniker": "SocialMedia.Infrastructure\\Options\\PasswordOptions.cs",
-              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Options\\PasswordOptions.cs",
-              "RelativeToolTip": "SocialMedia.Infrastructure\\Options\\PasswordOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T21:14:52.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SocialMediaContext.cs",
-              "DocumentMoniker": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Data\\SocialMediaContext.cs",
-              "RelativeDocumentMoniker": "SocialMedia.Infrastructure\\Data\\SocialMediaContext.cs",
-              "ToolTip": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\Data\\SocialMediaContext.cs",
-              "RelativeToolTip": "SocialMedia.Infrastructure\\Data\\SocialMediaContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T21:11:12.966Z",
+              "WhenOpened": "2024-09-26T15:51:48.126Z",
               "EditorCaption": ""
             }
           ]

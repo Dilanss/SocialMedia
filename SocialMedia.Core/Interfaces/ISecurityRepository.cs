@@ -4,6 +4,6 @@ namespace SocialMedia.Core.Interfaces
 {
     public interface ISecurityRepository : IRepository<Security>
     {
-        Task<Security> GetLoginByCredencials(UserLogin login);
+        Task<Security> GetLoginByCredentials(UserLogin login);
     }
 }
