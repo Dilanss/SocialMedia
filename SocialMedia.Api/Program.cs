@@ -1,18 +1,9 @@
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
-using SocialMedia.Core.CustomEntities;
-using SocialMedia.Core.Interfaces;
-using SocialMedia.Core.Services;
-using SocialMedia.Infrastructure.Data;
+using SocialMedia.Infrastructure.Extensions;
 using SocialMedia.Infrastructure.Filters;
-using SocialMedia.Infrastructure.Interfaces;
-using SocialMedia.Infrastructure.Options;
-using SocialMedia.Infrastructure.Repositories;
-using SocialMedia.Infrastructure.Services;
 using System.Reflection;
 using System.Text;
 
@@ -35,37 +26,10 @@ builder.Services.AddControllers(options =>
     //options.SuppressModelStateInvalidFilter = true;
 });
 
-builder.Services.Configure<PaginationOptions>(builder.Configuration.GetSection("Pagination"));
-builder.Services.Configure<PasswordOptions>(builder.Configuration.GetSection("PasswordOptions"));
-
-// Database Conexion
-builder.Services.AddDbContext<SocialMediaContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SocialMedia"))
-);
-
-// Register repositories e interfaces
-builder.Services.AddTransient<IPostService, PostService>();
-builder.Services.AddTransient<ISecurityService, SecurityService>();
-builder.Services.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
-builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
-builder.Services.AddSingleton<IPasswordService, PasswordService>();
-
-builder.Services.AddSingleton<IUriService>(provider =>
-{
-    var accesor = provider.GetRequiredService<IHttpContextAccessor>();
-    var request = accesor.HttpContext?.Request;
-    var absoluteUri = string.Concat(request?.Scheme, "://", request?.Host.ToUriComponent());
-    return new UriService(absoluteUri);
-});
-
-builder.Services.AddSwaggerGen(doc =>
-{
-    doc.SwaggerDoc("v1", new OpenApiInfo { Title = "Social Media API", Version = "v1" });
-
-    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    doc.IncludeXmlComments(xmlPath);
-});
+builder.Services.AddOptions(builder.Configuration);
+builder.Services.AddDBContexts(builder.Configuration);
+builder.Services.AddServices();
+builder.Services.AddSwagger($"{Assembly.GetExecutingAssembly().GetName().Name}.xml");
 
 builder.Services.AddAuthentication(options =>
 {
@@ -84,8 +48,6 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Authentication:SecretKey"]))
     };
 });
-
-
 
 builder.Services.AddMvc(options =>
 {

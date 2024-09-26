@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+4lmlha1BT0=",
+  "dgSpecHash": "od/lLus2Kag=",
   "success": true,
   "projectFilePath": "C:\\Users\\BB9780\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -66,9 +66,12 @@
     "C:\\Users\\BB9780\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\BB9780\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\BB9780\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\BB9780\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\BB9780\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\BB9780\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\BB9780\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\BB9780\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.8.0\\swashbuckle.aspnetcore.swagger.6.8.0.nupkg.sha512",
+    "C:\\Users\\BB9780\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.8.0\\swashbuckle.aspnetcore.swaggergen.6.8.0.nupkg.sha512",
     "C:\\Users\\BB9780\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\BB9780\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\BB9780\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

@@ -3,7 +3,6 @@ using Microsoft.IdentityModel.Tokens;
 using SocialMedia.Core.Entities;
 using SocialMedia.Core.Interfaces;
 using SocialMedia.Infrastructure.Interfaces;
-using SocialMedia.Infrastructure.Services;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;

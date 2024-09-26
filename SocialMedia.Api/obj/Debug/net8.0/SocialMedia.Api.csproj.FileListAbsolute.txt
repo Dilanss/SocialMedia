@@ -153,3 +153,4 @@ C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\obj\Debug\net8.0\Social
 C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\obj\Debug\net8.0\SocialMedia.Api.Properties.Resources.resources
 C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\obj\Debug\net8.0\SocialMedia.Api.csproj.GenerateResource.cache
+C:\Users\BB9780\source\repos\SocialMedia\SocialMedia.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll

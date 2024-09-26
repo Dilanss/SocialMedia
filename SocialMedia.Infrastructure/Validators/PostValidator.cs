@@ -13,7 +13,7 @@ namespace SocialMedia.Infrastructure.Validators
 
             RuleFor(post => post.Description)
                 .Length(10, 500)
-                .WithMessage("La longitud del la descripcion debe estar entre 10 y 500 caracteres");
+                .WithMessage("La longitud de la descripcion debe estar entre 10 y 500 caracteres");
 
             RuleFor(post => post.Date)
                 .NotNull()

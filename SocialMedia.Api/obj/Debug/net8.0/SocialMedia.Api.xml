@@ -28,24 +28,23 @@
         </member>
         <member name="M:SocialMedia.Api.Controllers.PostController.Post(SocialMedia.Core.DTOs.PostDto)">
             <summary>
-            Send data to the server
+            Create a new Post
             </summary>
-            <param name="postDto">Filters to apply</param>
+            <param name="id">Filters to apply</param>
             <returns></returns>
         </member>
         <member name="M:SocialMedia.Api.Controllers.PostController.Put(System.Int32,SocialMedia.Core.DTOs.PostDto)">
             <summary>
-            Update the registers
+            Update an existing Post by id
             </summary>
-            <param name="id">Filters to apply</param>
-            <param name="postDto">Filters to apply</param>
+            <param name="id">The ID of the post to update</param>
             <returns></returns>
         </member>
         <member name="M:SocialMedia.Api.Controllers.PostController.Delete(System.Int32)">
             <summary>
-            Delete register for by an id 
+            Delete a Post by id
             </summary>
-            <param name="id">Filters to apply</param>
+            <param name="id">The ID of the post to delete</param>
             <returns></returns>
         </member>
         <member name="T:SocialMedia.Api.Properties.Resources">

@@ -86,9 +86,9 @@ namespace SocialMedia.Api.Controllers
         }
 
         /// <summary>
-        /// Send data to the server
+        /// Create a new Post
         /// </summary>
-        /// <param name="postDto">Filters to apply</param>
+        /// <param name="id">Filters to apply</param>
         /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> Post(PostDto postDto)
@@ -96,17 +96,16 @@ namespace SocialMedia.Api.Controllers
             var post = _mapper.Map<Post>(postDto);
 
             await _postService.InsertPost(post);
-            postDto = _mapper.Map<PostDto>(post);
 
+            postDto = _mapper.Map<PostDto>(post);
             var response = new ApiResponse<PostDto>(postDto);
             return Ok(response);
         }
 
         /// <summary>
-        /// Update the registers
+        /// Update an existing Post by id
         /// </summary>
-        /// <param name="id">Filters to apply</param>
-        /// <param name="postDto">Filters to apply</param>
+        /// <param name="id">The ID of the post to update</param>
         /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Put(int id, PostDto postDto)
@@ -119,11 +118,10 @@ namespace SocialMedia.Api.Controllers
             return Ok(response);
         }
 
-
         /// <summary>
-        /// Delete register for by an id 
+        /// Delete a Post by id
         /// </summary>
-        /// <param name="id">Filters to apply</param>
+        /// <param name="id">The ID of the post to delete</param>
         /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
